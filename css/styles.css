@@ -82,19 +82,28 @@ color: #404BBF;
 }
 /* Footer Section */
 .footer_section{
-    background-color: var(--row-list-headline-color)
+    background-color: var(--row-list-headline-color);
+    width: 1440px;
+    height: 312px;
+    flex-shrink: 0;
 }
 .footer-logo{
     color: var(--button-background-color);
+    margin-bottom: 16px;
 }
 .footer-desc{
     line-height: 1.5;
     color: var(--button-background-color);
     letter-spacing: 0.02em;
+    width: 264px;
 }
 /* Hero Section */
 .hero_section{
     background-color: var(--row-list-headline-color);
+    width: 1440px;
+    height: 600px;
+    top: 72px;
+
 }
 .hero_section_subtitle{
     font-size: 56px;
@@ -102,13 +111,12 @@ color: #404BBF;
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
-    padding-top: 188px;
-    padding-bottom: 292px;
     width: 496px;
     height: 120px;
-}
-.hero-button-description{
-    padding: 16px 32px;
+    margin: 0 auto;
+    display: block;
+    padding-top: 188px;
+    padding-bottom: 48px;
 }
 .hero_button_link{
     color: #ffffff;
@@ -119,7 +127,10 @@ color: #404BBF;
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
-    border: 4px;
+    padding: 16px 32px;
+    border-radius: 4px;
+    margin: 0 auto;
+    display: block;
 }
 .hero_button_link:hover,
 .hero_button_link:focus{
@@ -141,6 +152,7 @@ color: #404BBF;
 .work-list-caption{
     line-height: 1.5;
     letter-spacing: 0.02em;
+    width: 264px;
 
 }
 .work-list-headline{
@@ -149,6 +161,7 @@ color: #404BBF;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--row-list-headline-color);
+    width: 264px;
 }
 /* Description Section */
 .description-subtitle{
@@ -158,6 +171,7 @@ color: #404BBF;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--row-list-headline-color);
+    padding-bottom: 72px;
 }
 /* Team Section */
 .list-team_section{
@@ -170,6 +184,7 @@ color: #404BBF;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--row-list-headline-color);
+    padding-bottom: 72px;
 }
 .team-list-headline{
     background-color: #FFFFFF;
@@ -178,6 +193,8 @@ color: #404BBF;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--row-list-headline-color);
+    margin-bottom: 8px;
+    margin-top: 32px;
 }
 .team-list-caption{
     line-height: 1.5;
