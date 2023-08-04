@@ -172,6 +172,8 @@ color: #404BBF;
     text-transform: capitalize;
     color: var(--row-list-headline-color);
     padding-bottom: 72px;
+    margin: 0 auto;
+    display: block;
 }
 /* Team Section */
 .list-team_section{
@@ -185,6 +187,8 @@ color: #404BBF;
     text-transform: capitalize;
     color: var(--row-list-headline-color);
     padding-bottom: 72px;
+    margin: 0 auto;
+    display: block;
 }
 .team-list-headline{
     background-color: #FFFFFF;
